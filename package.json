@@ -1,0 +1,22 @@
+{
+  "name": "github-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/index.js",
+    "pkg": "pkg package.json -t win --output github-report.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/request": "^2.48.1",
+    "lodash": "^4.17.11",
+    "pkg": "^4.3.7",
+    "request": "^2.88.0"
+  }
+}
